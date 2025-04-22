@@ -1,0 +1,55 @@
+/* Basic CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer, main {
+    display: block;
+}   
+/* Body Styling */
+body {
+    font-family: "Special Gothic Condensed One", sans-serif;
+    line-height: 1.6;
+    background: #f8f8;;
+    color: #333;
+    padding: 20px;   
+}
+
+/* Example Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(162, 28, 28, 0.1);
+}
+
+.owl-image {
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+    display: block;
+
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px;
+}
+.card {
+    width: 300px;
+    padding: 20px;
+    border: 5px solid #a82a2a;
+    margin: 0;
+    box-sizing: border-box;
+    background: #f0f0f0;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.07);
+}
